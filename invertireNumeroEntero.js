@@ -16,7 +16,16 @@ const invertirNumero = (numero) => {
 //-----------Version Victor --------------------------
 
 function invertirNum (numero) {
-    let invertido = numero.toString().split('').reverse().join('')
-    console.log(invertido);
-}
-invertirNum(456)
+
+    let invertido = parseInt(numero
+      .toString()
+      .split('')
+      .reverse()
+      .join(''))
+       * Math.sign(numero);
+     
+      console.log(invertido);
+      return invertido
+    }
+    
+invertirNum(-456)
