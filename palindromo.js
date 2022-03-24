@@ -45,4 +45,4 @@ const palindromoVic = ( texto ) =>{
         }
 
          //palindromo("")
-         //palindromo("salas"); //Error No funciona para mi
+        // palindromo("salas"); //Error No funciona para mi

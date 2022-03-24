@@ -17,4 +17,4 @@ const censurar = (texto = false, busqueda = false) => {
   return resultado;
 };
 
-console.log (censurar("hola hola como estas hola", "hola"))
+console.log (censurar("hola hola como estas hola desde hola", "hola"))
