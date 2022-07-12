@@ -18,14 +18,27 @@ revertir("Carlos");
 
 //--------------Version Jhon ---------------
 
-function metodorReverse ( cadena ) {
-   return cadena.split('').reverse().join('')
+function metodorReverse(cadena) {
+  return cadena.split('').reverse().join('')
 }
-console.log( metodorReverse('Alfredo'));
+console.log(metodorReverse('Alfredo'));
 
 //-----------------------------
 
-const mReverse = ( cadena ) => console.log( cadena.split('').reverse().join(''));
+const mReverse = (cadena) => console.log(cadena.split('').reverse().join(''));
 mReverse('Montoya');
 
+//----------version ndloen -----------
 
+let resultadoinv = '';
+const invertirHdLeon = (cadenaInv) => {
+
+
+  for (let i = cadenaInv.length - 1; i >= 0; i--) {
+    resultadoinv += cadenaInv[i];
+
+  }
+  console.log(resultadoinv);
+}
+
+invertirHdLeon('Andrea')
