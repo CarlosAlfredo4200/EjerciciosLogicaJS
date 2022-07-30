@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
     
-    <p id="p1">Dado este texto, convetirlo a mayusculas</p>
-    <p id="respuestap1"></p>
-    <p id="p2">Dado este texto, convetir  la primera letra de cada palabra en mayusculas</p>
-    <p id="respuestap2"></p>
+    <p id="p1" class="mayusculas">Dado este texto, convetirlo a mayusculas</p>
+    <div id="respuestap1"></div>
+     
+    <p id="p2" class="mayusculaIicial">Dado este texto, convetir  la primera letra de cada palabra en mayusculas</p>
+    <div id="respuestap2"></div>
+    
 
     <!-- Dado el texto del usuario -->
 
-    <form action="">
+    <form id="form">
 
-        <label >Ingrese el mensaje</label>
-        <input type="text"/>
-        <button>Guardar</button>
-
+        <label for="inMensaje" >Ingrese el mensaje</label>
+        <input id="mensajeInput" type="text"   name="inMensaje"/>
+        <button id="button"  type="button">Guardar</button>
+        
     </form>
 
-    <ul>
-        <li>Tus mensajes</li>
+    <ul id="lista">
+         
     </ul>
 
+    <ul id="listaModificada">
+
+    </ul>
+
+    <button id="btnModificar">Convertir primera letra de cada palabra a mayusculas</button>
     <!-- De los mensajes anteriores -->
 
-    <button>Convertir primera letra de cada palabra a mayusculas</button>
 
     <!-- Realiza el boton anterior de 2 maneras, con y sin hacer modificaciones al texto ingresado
     por el usuario al insertarlo. -->
